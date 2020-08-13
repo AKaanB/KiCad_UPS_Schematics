@@ -1,0 +1,1365 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U3003
+U 1 1 5E45D3F0
+P 12850 4900
+F 0 "U3003" H 13150 3450 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 13300 3350 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 12250 3500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 12850 4900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F103C8T6/497-6063-ND/1646338" H 12850 4900 50  0001 C CNN "DIGIKEY"
+	1    12850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 4700 13450 3550
+Wire Wire Line
+	13450 4800 13550 4800
+Wire Wire Line
+	13550 4800 13550 3650
+Wire Wire Line
+	13450 4900 13650 4900
+Wire Wire Line
+	13650 4900 13650 3750
+Wire Wire Line
+	13450 5000 13750 5000
+Wire Wire Line
+	13750 5000 13750 3850
+Wire Wire Line
+	13450 5100 13850 5100
+Wire Wire Line
+	13850 5100 13850 3950
+Wire Wire Line
+	13450 5200 13950 5200
+Wire Wire Line
+	13950 5200 13950 4050
+Wire Wire Line
+	13450 5300 14050 5300
+Wire Wire Line
+	14050 5300 14050 4150
+Wire Wire Line
+	13450 5400 14150 5400
+Wire Wire Line
+	14150 5400 14150 4250
+Wire Wire Line
+	13450 5500 14250 5500
+Wire Wire Line
+	14250 5500 14250 4350
+Wire Wire Line
+	13450 5600 14350 5600
+Wire Wire Line
+	14350 5600 14350 4450
+Wire Wire Line
+	13450 5700 14450 5700
+Wire Wire Line
+	14450 5700 14450 4550
+Wire Wire Line
+	13450 5800 14550 5800
+Wire Wire Line
+	14550 5800 14550 4650
+Wire Wire Line
+	13450 5900 14650 5900
+Wire Wire Line
+	14650 5900 14650 4750
+Wire Wire Line
+	13450 6000 14750 6000
+Wire Wire Line
+	14750 6000 14750 4850
+Wire Wire Line
+	13450 6100 14850 6100
+Wire Wire Line
+	14850 6100 14850 4950
+Wire Wire Line
+	14850 4950 14900 4950
+Wire Wire Line
+	13450 6200 14950 6200
+Wire Wire Line
+	14950 6200 14950 5050
+Wire Wire Line
+	14750 4850 14900 4850
+Wire Wire Line
+	14650 4750 14900 4750
+Wire Wire Line
+	14550 4650 14900 4650
+Wire Wire Line
+	14450 4550 14900 4550
+Wire Wire Line
+	14350 4450 15050 4450
+Wire Wire Line
+	14250 4350 14900 4350
+Wire Wire Line
+	13750 3850 15050 3850
+Wire Wire Line
+	13650 3750 15050 3750
+Wire Wire Line
+	13550 3650 15000 3650
+Wire Wire Line
+	13450 3550 15000 3550
+Wire Wire Line
+	11450 6200 11450 6600
+Wire Wire Line
+	11450 6600 9750 6600
+Wire Wire Line
+	11450 6200 12150 6200
+Wire Wire Line
+	12150 6100 11350 6100
+Wire Wire Line
+	11350 6500 9750 6500
+Wire Wire Line
+	11350 6100 11350 6500
+Wire Wire Line
+	9750 6400 11250 6400
+Wire Wire Line
+	11250 6400 11250 6000
+Wire Wire Line
+	11250 6000 12150 6000
+Wire Wire Line
+	12150 5900 11150 5900
+Wire Wire Line
+	11150 5900 11150 6300
+Wire Wire Line
+	11150 6300 9750 6300
+Wire Wire Line
+	9750 6200 11050 6200
+Wire Wire Line
+	11050 6200 11050 5800
+Wire Wire Line
+	11050 5800 12150 5800
+Wire Wire Line
+	12150 5700 10950 5700
+Wire Wire Line
+	10950 5700 10950 6100
+Wire Wire Line
+	10950 6100 9750 6100
+Wire Wire Line
+	12150 5600 10850 5600
+Wire Wire Line
+	10850 5600 10850 6000
+Wire Wire Line
+	10850 6000 9750 6000
+Wire Wire Line
+	9750 5900 10750 5900
+Wire Wire Line
+	10750 5900 10750 5500
+Wire Wire Line
+	10750 5500 12150 5500
+Wire Wire Line
+	12150 5400 10650 5400
+Wire Wire Line
+	10650 5400 10650 5800
+Wire Wire Line
+	10650 5800 9750 5800
+Wire Wire Line
+	9750 5700 10550 5700
+Wire Wire Line
+	10550 5700 10550 5300
+Wire Wire Line
+	10550 5300 12150 5300
+Wire Wire Line
+	12150 5200 10450 5200
+Wire Wire Line
+	10450 5200 10450 5600
+Wire Wire Line
+	10450 5600 9750 5600
+Wire Wire Line
+	9750 5500 10350 5500
+Wire Wire Line
+	10350 5500 10350 5100
+Wire Wire Line
+	10350 5100 12150 5100
+Wire Wire Line
+	12150 5000 10250 5000
+Wire Wire Line
+	10250 5000 10250 5400
+Wire Wire Line
+	10250 5400 9750 5400
+Wire Wire Line
+	9750 5300 10150 5300
+Wire Wire Line
+	10150 5300 10150 4900
+Wire Wire Line
+	10150 4900 12150 4900
+Wire Wire Line
+	12150 4800 10050 4800
+Wire Wire Line
+	10050 4800 10050 5200
+Wire Wire Line
+	10050 5200 9750 5200
+Wire Wire Line
+	12150 4700 9950 4700
+Wire Wire Line
+	9950 4700 9950 5100
+Wire Wire Line
+	9950 5100 9750 5100
+Wire Wire Line
+	11950 4500 11950 4600
+Wire Wire Line
+	11950 4600 9750 4600
+Wire Wire Line
+	11950 4500 12150 4500
+Wire Wire Line
+	12150 4400 9750 4400
+Wire Wire Line
+	11950 4300 11950 4200
+Wire Wire Line
+	11950 4200 9750 4200
+Wire Wire Line
+	12150 3600 11950 3600
+Wire Wire Line
+	11950 3600 11950 3300
+Wire Wire Line
+	11950 3300 9750 3300
+Wire Wire Line
+	12150 3800 11850 3800
+Wire Wire Line
+	11850 3800 11850 3450
+Wire Wire Line
+	11850 3450 9750 3450
+Wire Wire Line
+	12150 4000 11700 4000
+Wire Wire Line
+	11700 4000 11700 3600
+Wire Wire Line
+	11700 3600 9750 3600
+Wire Wire Line
+	12150 4100 11550 4100
+Wire Wire Line
+	11550 4100 11550 3750
+Wire Wire Line
+	11550 3750 9750 3750
+Wire Wire Line
+	12650 3400 12650 3200
+Wire Wire Line
+	12650 3200 12350 3200
+Wire Wire Line
+	12350 3200 12350 2850
+Wire Wire Line
+	12750 3400 12750 3100
+Wire Wire Line
+	12750 3100 12500 3100
+Wire Wire Line
+	12850 3400 12850 3000
+Wire Wire Line
+	12850 3000 12750 3000
+Wire Wire Line
+	13050 3400 13050 3200
+Text GLabel 9750 3450 0    50   Input ~ 0
+BOOT0
+Text GLabel 9750 5300 0    50   Input ~ 0
+BOOT1
+Text GLabel 9750 3300 0    50   Input ~ 0
+NRST
+Text GLabel 9750 3600 0    50   Input ~ 0
+OSCIN
+Text GLabel 9750 3750 0    50   Input ~ 0
+OSCOUT
+Text GLabel 14900 4850 2    50   Input ~ 0
+SWDIO_2
+Text GLabel 14900 4950 2    50   Input ~ 0
+SWCLK_2
+$Comp
+L Connector_Generic:Conn_01x02 J3001
+U 1 1 5E4CA750
+P 5250 10200
+F 0 "J3001" H 5330 10192 50  0000 L CNN
+F 1 "Conn_01x02" H 5330 10101 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5250 10200 50  0001 C CNN
+F 3 "~" H 5250 10200 50  0001 C CNN
+	1    5250 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 10200 4800 10200
+Wire Wire Line
+	4800 10300 5050 10300
+Text GLabel 4800 10200 0    50   Input ~ 0
+SWDIO_2
+Text GLabel 4800 10300 0    50   Input ~ 0
+SWCLK_2
+$Comp
+L Regulator_Switching:R-78C3.3-1.0 U3002
+U 1 1 5E4E6576
+P 5900 4900
+F 0 "U3002" H 5900 5142 50  0000 C CNN
+F 1 "R-78C3.3-1.0" H 5900 5051 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 5950 4650 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf" H 5900 4900 50  0001 C CNN
+F 4 "https://www.digikey.com/products/en/power-supplies-board-mount/dc-dc-converters/922?k=78c3" H 5900 4900 50  0001 C CNN "DIGIKEY"
+	1    5900 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 4900 0    50   Input ~ 0
+V_BUS
+$Comp
+L Device:D_Zener D3001
+U 1 1 5E4F63D8
+P 7250 5050
+F 0 "D3001" V 7204 5129 50  0000 L CNN
+F 1 "MMSZ4685T1G" V 7295 5129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7250 5050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF" H 7250 5050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MMSZ4685T1G/MMSZ4685T1GOSCT-ND/1139878" H 7250 5050 50  0001 C CNN "DIGIKEY"
+	1    7250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C3009
+U 1 1 5E4FE8B7
+P 6500 5050
+F 0 "C3009" H 6615 5096 50  0000 L CNN
+F 1 "1uF_50V" H 6615 5005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6500 5050 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-usa_usr.pdf" H 6500 5050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/nichicon/USA1H010MDD1TE/493-14556-1-ND/5800256" H 6500 5050 50  0001 C CNN "DIGIKEY"
+	1    6500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4900 6500 4900
+Connection ~ 6500 4900
+Wire Wire Line
+	6500 4900 7250 4900
+Wire Wire Line
+	5100 5200 5100 5300
+Wire Wire Line
+	5100 5300 5900 5300
+Wire Wire Line
+	7250 5300 7250 5200
+Wire Wire Line
+	6500 5200 6500 5300
+Connection ~ 6500 5300
+Wire Wire Line
+	6500 5300 7250 5300
+Wire Wire Line
+	5900 5200 5900 5300
+Connection ~ 5900 5300
+Wire Wire Line
+	5900 5300 6500 5300
+$Comp
+L power:GND #PWR03007
+U 1 1 5E51A2F5
+P 5900 5300
+F 0 "#PWR03007" H 5900 5050 50  0001 C CNN
+F 1 "GND" H 5905 5127 50  0000 C CNN
+F 2 "" H 5900 5300 50  0001 C CNN
+F 3 "" H 5900 5300 50  0001 C CNN
+	1    5900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4900 7350 4900
+Connection ~ 7250 4900
+Text GLabel 7350 4900 2    50   Input ~ 0
+VDD_3.3V
+Wire Wire Line
+	12650 6400 12650 6600
+Wire Wire Line
+	12650 6600 12750 6600
+Wire Wire Line
+	12950 6600 12950 6400
+Wire Wire Line
+	12850 6400 12850 6600
+Connection ~ 12850 6600
+Wire Wire Line
+	12850 6600 12950 6600
+Wire Wire Line
+	12750 6400 12750 6600
+Connection ~ 12750 6600
+Wire Wire Line
+	12750 6600 12800 6600
+Wire Wire Line
+	12800 6650 12800 6600
+Connection ~ 12800 6600
+Wire Wire Line
+	12800 6600 12850 6600
+Wire Wire Line
+	12350 2850 10400 2850
+$Comp
+L Device:C C3010
+U 1 1 5E5B41AE
+P 10750 1750
+F 0 "C3010" V 10498 1750 50  0000 C CNN
+F 1 "100nF_10V" V 10589 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 1600 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 10750 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K8RACTU/399-1095-1-ND/411370" H 10750 1750 50  0001 C CNN "DIGIKEY"
+	1    10750 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12500 2600 11050 2600
+Wire Wire Line
+	11050 2600 11050 1750
+Wire Wire Line
+	11050 1300 11200 1300
+Wire Wire Line
+	12500 2600 12500 3100
+$Comp
+L Device:C C3011
+U 1 1 5E5E5741
+P 11200 1650
+F 0 "C3011" H 11315 1696 50  0000 L CNN
+F 1 "100nF_10V" H 11315 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11238 1500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 11200 1650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K8RACTU/399-1095-1-ND/411370" H 11200 1650 50  0001 C CNN "DIGIKEY"
+	1    11200 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 1500 11200 1300
+Wire Wire Line
+	11200 1800 11200 1850
+Text GLabel 11050 1300 0    50   Input ~ 0
+VDD_3.3V
+Wire Wire Line
+	12750 2350 11750 2350
+Wire Wire Line
+	11750 2350 11750 1200
+Wire Wire Line
+	12750 2350 12750 3000
+Wire Wire Line
+	11750 1200 12000 1200
+$Comp
+L Device:C C3012
+U 1 1 5E5FF1B1
+P 12000 1500
+F 0 "C3012" H 12115 1546 50  0000 L CNN
+F 1 "100nF_10V" H 12115 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12038 1350 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 12000 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K8RACTU/399-1095-1-ND/411370" H 12000 1500 50  0001 C CNN "DIGIKEY"
+	1    12000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 1350 12000 1200
+Wire Wire Line
+	12000 1650 12000 1750
+Text GLabel 11750 1200 0    50   Input ~ 0
+VDD_3.3V
+Wire Wire Line
+	10400 2850 10400 1750
+Wire Wire Line
+	10900 1750 11050 1750
+Connection ~ 11050 1750
+Wire Wire Line
+	11050 1750 11050 1300
+Wire Wire Line
+	12950 2100 12550 2100
+Wire Wire Line
+	12550 2100 12550 1100
+Wire Wire Line
+	12550 1100 12800 1100
+Wire Wire Line
+	12950 2100 12950 3400
+$Comp
+L Device:C C3013
+U 1 1 5E64D32E
+P 12800 1400
+F 0 "C3013" H 12915 1446 50  0000 L CNN
+F 1 "100nF_10V" H 12915 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12838 1250 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 12800 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K8RACTU/399-1095-1-ND/411370" H 12800 1400 50  0001 C CNN "DIGIKEY"
+	1    12800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 1250 12800 1100
+Wire Wire Line
+	12800 1550 12800 1650
+Wire Wire Line
+	13050 3200 13350 3200
+Wire Wire Line
+	13350 3200 13350 1050
+Wire Wire Line
+	13350 1050 13650 1050
+$Comp
+L Device:C C3014
+U 1 1 5E67AAD0
+P 13650 1400
+F 0 "C3014" H 13765 1446 50  0000 L CNN
+F 1 "100nF_10V" H 13765 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13688 1250 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13650 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K8RACTU/399-1095-1-ND/411370" H 13650 1400 50  0001 C CNN "DIGIKEY"
+	1    13650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 1250 13650 1050
+Wire Wire Line
+	13650 1550 13650 1650
+Text GLabel 12550 1100 0    50   Input ~ 0
+VDD_3.3V
+Text GLabel 13350 1050 0    50   Input ~ 0
+VDD_3.3V
+Text GLabel 9750 4400 0    50   Input ~ 0
+OSC32_IN
+Text GLabel 9750 4600 0    50   Input ~ 0
+OSC32_OUT
+$Comp
+L Device:Crystal Y3001
+U 1 1 5E4D4C30
+P 1750 5050
+F 0 "Y3001" V 1704 5181 50  0000 L CNN
+F 1 "AB308-8.000MHZ" V 1795 5181 50  0000 L CNN
+F 2 "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical" H 1750 5050 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ab308.pdf" H 1750 5050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/abracon-llc/AB308-8.000MHZ/535-14123-ND/5054618" H 1750 5050 50  0001 C CNN "DIGIKEY"
+	1    1750 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3002
+U 1 1 5E4D8280
+P 2800 5050
+F 0 "R3002" H 2870 5096 50  0000 L CNN
+F 1 "1M" H 2870 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 5050 50  0001 C CNN
+F 3 "~" H 2800 5050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071ML/311-1-00MHRCT-ND/729791" H 2800 5050 50  0001 C CNN "DIGIKEY"
+	1    2800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3002
+U 1 1 5E4D8D24
+P 1400 4700
+F 0 "C3002" V 1148 4700 50  0000 C CNN
+F 1 "20p_10V" V 1239 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 4550 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 1400 4700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0402C200K8GAC7867/399-14429-1-ND/7103721" H 1400 4700 50  0001 C CNN "DIGIKEY"
+	1    1400 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3003
+U 1 1 5E4D92DB
+P 1400 5350
+F 0 "C3003" V 1148 5350 50  0000 C CNN
+F 1 "20p_10V" V 1239 5350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 5200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 1400 5350 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0402C200K8GAC7867/399-14429-1-ND/7103721" H 1400 5350 50  0001 C CNN "DIGIKEY"
+	1    1400 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3004
+U 1 1 5E4D9EFE
+P 1500 7900
+F 0 "C3004" V 1248 7900 50  0000 C CNN
+F 1 "4.7pF_10V" V 1339 7900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 7750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012005005.pdf" H 1500 7900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012005005/732-7423-1-ND/5454050" H 1500 7900 50  0001 C CNN "DIGIKEY"
+	1    1500 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3005
+U 1 1 5E4DA4FD
+P 1500 8600
+F 0 "C3005" V 1248 8600 50  0000 C CNN
+F 1 "4.7pF_10V" V 1339 8600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 8450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012005005.pdf" H 1500 8600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012005005/732-7423-1-ND/5454050" H 1500 8600 50  0001 C CNN "DIGIKEY"
+	1    1500 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03001
+U 1 1 5E4E4FB7
+P 1050 5000
+F 0 "#PWR03001" H 1050 4750 50  0001 C CNN
+F 1 "GND" H 1055 4827 50  0000 C CNN
+F 2 "" H 1050 5000 50  0001 C CNN
+F 3 "" H 1050 5000 50  0001 C CNN
+	1    1050 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03002
+U 1 1 5E4E5681
+P 1150 8200
+F 0 "#PWR03002" H 1150 7950 50  0001 C CNN
+F 1 "GND" H 1155 8027 50  0000 C CNN
+F 2 "" H 1150 8200 50  0001 C CNN
+F 3 "" H 1150 8200 50  0001 C CNN
+	1    1150 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 4900 2800 4700
+Wire Wire Line
+	2800 4700 1750 4700
+Wire Wire Line
+	1750 4900 1750 4700
+Connection ~ 1750 4700
+Wire Wire Line
+	1750 4700 1550 4700
+Wire Wire Line
+	1750 5200 1750 5350
+Wire Wire Line
+	1750 5350 1550 5350
+Wire Wire Line
+	1750 5350 2800 5350
+Wire Wire Line
+	2800 5350 2800 5200
+Connection ~ 1750 5350
+Wire Wire Line
+	1250 5350 1150 5350
+Wire Wire Line
+	1150 5350 1150 5000
+Wire Wire Line
+	1150 4700 1250 4700
+Wire Wire Line
+	1050 5000 1150 5000
+Connection ~ 1150 5000
+Wire Wire Line
+	1150 5000 1150 4700
+Wire Wire Line
+	1150 8200 1250 8200
+Wire Wire Line
+	1250 8200 1250 7900
+Wire Wire Line
+	1250 7900 1350 7900
+Wire Wire Line
+	1250 8200 1250 8600
+Wire Wire Line
+	1250 8600 1350 8600
+Connection ~ 1250 8200
+$Comp
+L Switch:SW_Push SW3001
+U 1 1 5E59AFDD
+P 5550 2150
+F 0 "SW3001" V 5504 2102 50  0000 R CNN
+F 1 "SW_Push" V 5595 2102 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 5550 2350 50  0001 C CNN
+F 3 "~" H 5550 2350 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/judco-manufacturing-inc/50-0015-00/519PB-ND/307997" H 5550 2150 50  0001 C CNN "DIGIKEY"
+	1    5550 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C3008
+U 1 1 5E5C174F
+P 6200 2150
+F 0 "C3008" H 6085 2104 50  0000 R CNN
+F 1 "100n_10V" H 6085 2195 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6238 2000 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6200 2150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-1-ND/2175212" H 6200 2150 50  0001 C CNN "DIGIKEY"
+	1    6200 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2350 5550 2450
+Wire Wire Line
+	5550 2450 5850 2450
+Wire Wire Line
+	6200 2450 6200 2300
+Wire Wire Line
+	5550 1950 5550 1850
+Wire Wire Line
+	5550 1850 5850 1850
+Wire Wire Line
+	6200 1850 6200 2000
+$Comp
+L Device:R R3003
+U 1 1 5E5DC6BA
+P 5850 1600
+F 0 "R3003" H 5920 1646 50  0000 L CNN
+F 1 "10k" H 5920 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 1600 50  0001 C CNN
+F 3 "~" H 5850 1600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF9103C/P123202CT-ND/8343343" H 5850 1600 50  0001 C CNN "DIGIKEY"
+	1    5850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1750 5850 1850
+Connection ~ 5850 1850
+Wire Wire Line
+	5850 1850 6200 1850
+Wire Wire Line
+	5850 1450 5850 1300
+Text GLabel 5850 1300 0    50   Input ~ 0
+VDD_3.3V
+$Comp
+L power:GND #PWR03006
+U 1 1 5E5F81F4
+P 5850 2500
+F 0 "#PWR03006" H 5850 2250 50  0001 C CNN
+F 1 "GND" H 5855 2327 50  0000 C CNN
+F 2 "" H 5850 2500 50  0001 C CNN
+F 3 "" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2500 5850 2450
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2450 6200 2450
+Text GLabel 6200 1850 2    50   Input ~ 0
+NRST
+$Comp
+L ECS-.327-12.5-17X-TR:ECS-.327-12.5-17X-TR Y3002
+U 1 1 5E4F40C6
+P 2400 8300
+F 0 "Y3002" H 2400 8650 50  0000 C CNN
+F 1 "ABS25-32.768KHZ-6-T" H 2400 8550 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm" H 2400 8300 50  0001 L BNN
+F 3 "https://abracon.com/Resonators/abs25.pdf" H 2400 8300 50  0001 L BNN
+F 4 "" H 2400 8300 50  0001 L BNN "Field4"
+F 5 "" H 2400 8300 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.com/product-detail/en/abracon-llc/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053" H 2400 8300 50  0001 C CNN "DIGIKEY"
+	1    2400 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7900 1800 7900
+Wire Wire Line
+	1650 8600 1800 8600
+Wire Wire Line
+	2000 8200 1800 8200
+Wire Wire Line
+	1800 8200 1800 7900
+Connection ~ 1800 7900
+Wire Wire Line
+	1800 7900 2600 7900
+Wire Wire Line
+	2000 8400 1800 8400
+Wire Wire Line
+	1800 8400 1800 8600
+Connection ~ 1800 8600
+Wire Wire Line
+	1800 8600 2600 8600
+Text GLabel 2600 7900 2    50   Input ~ 0
+OSC32_IN
+Text GLabel 2600 8600 2    50   Input ~ 0
+OSC32_OUT
+Text GLabel 2800 4700 2    50   Input ~ 0
+OSCIN
+Text GLabel 2800 5350 2    50   Input ~ 0
+OSCOUT
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3002
+U 1 1 5E5CBE26
+P 6700 8300
+F 0 "J3002" H 6750 8617 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 6750 8526 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 6700 8300 50  0001 C CNN
+F 3 "~" H 6700 8300 50  0001 C CNN
+	1    6700 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 8200 6050 8200
+Wire Wire Line
+	6050 8200 6050 7650
+Wire Wire Line
+	6050 7650 5900 7650
+Wire Wire Line
+	7000 8200 7450 8200
+Wire Wire Line
+	7450 8200 7450 7650
+Wire Wire Line
+	7450 7650 7600 7650
+Wire Wire Line
+	6500 8400 6050 8400
+Wire Wire Line
+	6050 8400 6050 8850
+Wire Wire Line
+	6050 8850 5900 8850
+Wire Wire Line
+	7000 8400 7450 8400
+Wire Wire Line
+	7450 8400 7450 8850
+Wire Wire Line
+	7450 8850 7600 8850
+$Comp
+L power:GND #PWR03008
+U 1 1 5E60BC50
+P 5900 8850
+F 0 "#PWR03008" H 5900 8600 50  0001 C CNN
+F 1 "GND" H 5905 8677 50  0000 C CNN
+F 2 "" H 5900 8850 50  0001 C CNN
+F 3 "" H 5900 8850 50  0001 C CNN
+	1    5900 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03009
+U 1 1 5E60C19F
+P 7600 8850
+F 0 "#PWR03009" H 7600 8600 50  0001 C CNN
+F 1 "GND" H 7605 8677 50  0000 C CNN
+F 2 "" H 7600 8850 50  0001 C CNN
+F 3 "" H 7600 8850 50  0001 C CNN
+	1    7600 8850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5900 7650 0    50   Input ~ 0
+VDD_3.3V
+Text GLabel 7600 7650 2    50   Input ~ 0
+VDD_3.3V
+Wire Wire Line
+	6500 8300 6000 8300
+$Comp
+L Device:R R3004
+U 1 1 5E61D00E
+P 5850 8300
+F 0 "R3004" H 5550 8250 50  0000 L CNN
+F 1 "100k" V 5850 8200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 8300 50  0001 C CNN
+F 3 "~" H 5850 8300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ104X/P100KJCT-ND/146730" H 5850 8300 50  0001 C CNN "DIGIKEY"
+	1    5850 8300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3005
+U 1 1 5E61D3AB
+P 7650 8300
+F 0 "R3005" H 7720 8346 50  0000 L CNN
+F 1 "100k" V 7650 8200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7580 8300 50  0001 C CNN
+F 3 "~" H 7650 8300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ104X/P100KJCT-ND/146730" H 7650 8300 50  0001 C CNN "DIGIKEY"
+	1    7650 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 8300 7000 8300
+Wire Wire Line
+	5700 8300 5600 8300
+Wire Wire Line
+	7800 8300 7950 8300
+Text GLabel 7950 8300 2    50   Input ~ 0
+BOOT1
+Text GLabel 5600 8300 0    50   Input ~ 0
+BOOT0
+Wire Wire Line
+	10600 1750 10400 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5EAEBD52
+P 3250 2300
+AR Path="/5EAEBD52" Ref="#PWR?"  Part="1" 
+AR Path="/5E64352C/5EAEBD52" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5EAEBD52" Ref="#PWR03005"  Part="1" 
+F 0 "#PWR03005" H 3250 2050 50  0001 C CNN
+F 1 "GND" H 3100 2250 50  0000 C CNN
+F 2 "" H 3250 2300 50  0001 C CNN
+F 3 "" H 3250 2300 50  0001 C CNN
+	1    3250 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 2000 2    50   Input ~ 0
+VDD_5V
+$Comp
+L Device:CP1 C3006
+U 1 1 5EAEBD59
+P 3250 2150
+F 0 "C3006" H 3365 2196 50  0000 L CNN
+F 1 "10uF_10V" H 3365 2105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 3250 2150 50  0001 C CNN
+F 3 "~" H 3250 2150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/nichicon/USP1A100MDD/493-15985-ND/2539161" H 3250 2150 50  0001 C CNN "DIGIKEY"
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L L7805CV:L7805CV U3001
+U 1 1 5EAEBD62
+P 2450 2150
+F 0 "U3001" H 2450 2515 50  0000 C CNN
+F 1 "L7805CV" H 2450 2424 50  0000 C CNN
+F 2 "TO255P1040X460X1968-3" H 2450 2150 50  0001 L BNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2450 2150 50  0001 L BNN
+F 4 "STMicroelectronics" H 2450 2150 50  0001 L BNN "Field4"
+F 5 "IPC-7351B" H 2450 2150 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964" H 2450 2150 50  0001 C CNN "DIGIKEY"
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2050 3150 2000
+Wire Wire Line
+	3150 2000 3250 2000
+Connection ~ 3250 2000
+Wire Wire Line
+	3250 2000 3350 2000
+Wire Wire Line
+	3150 2250 3150 2300
+Wire Wire Line
+	3150 2300 3250 2300
+Connection ~ 3250 2300
+Text GLabel 1150 2050 0    50   Input ~ 0
+V_BUS
+$Comp
+L Device:C C?
+U 1 1 5EAEBD71
+P 1300 2200
+AR Path="/5EAEBD71" Ref="C?"  Part="1" 
+AR Path="/5E64352C/5EAEBD71" Ref="C?"  Part="1" 
+AR Path="/5E45D329/5EAEBD71" Ref="C3001"  Part="1" 
+F 0 "C3001" H 1415 2246 50  0000 L CNN
+F 1 "100nF_50V" H 1415 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1338 2050 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 1300 2200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 1300 2200 50  0001 C CNN "DIGIKEY"
+	1    1300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EAEBD77
+P 1300 2350
+AR Path="/5EAEBD77" Ref="#PWR?"  Part="1" 
+AR Path="/5E64352C/5EAEBD77" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5EAEBD77" Ref="#PWR03003"  Part="1" 
+F 0 "#PWR03003" H 1300 2100 50  0001 C CNN
+F 1 "GND" H 1150 2300 50  0000 C CNN
+F 2 "" H 1300 2350 50  0001 C CNN
+F 3 "" H 1300 2350 50  0001 C CNN
+	1    1300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2050 1150 2050
+Wire Wire Line
+	1750 2050 1300 2050
+Connection ~ 1300 2050
+Text GLabel 9750 6300 0    50   Input ~ 0
+CS_H_2
+Text GLabel 9750 6400 0    50   Input ~ 0
+SCLK_H_2
+Text GLabel 9750 6500 0    50   Input ~ 0
+SDO_H_2
+Text GLabel 9750 6600 0    50   Input ~ 0
+SDI_H_2
+Text GLabel 14900 4650 2    50   Input ~ 0
+DRDY_H_2
+Text GLabel 14900 4750 2    50   Input ~ 0
+ALERT_H_2
+Text GLabel 14900 4350 2    50   Input ~ 0
+FAULT_H_2
+$Comp
+L Connector_Generic:Conn_01x04 J3003
+U 1 1 5E7D7283
+P 8900 10150
+F 0 "J3003" H 8980 10142 50  0000 L CNN
+F 1 "Conn_01x04" H 8980 10051 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 8900 10150 50  0001 C CNN
+F 3 "~" H 8900 10150 50  0001 C CNN
+	1    8900 10150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8700 10050 0    50   Input ~ 0
+VDD_5V
+Wire Wire Line
+	8700 10350 8400 10350
+Text GLabel 9750 5600 0    50   Input ~ 0
+SDI_H_1
+Text GLabel 9750 5500 0    50   Input ~ 0
+SDO_H_1
+Text GLabel 9750 5400 0    50   Input ~ 0
+SCLK_H_1
+Text GLabel 14950 5050 2    50   Input ~ 0
+CS_H_1
+Wire Wire Line
+	13850 3950 15050 3950
+Wire Wire Line
+	13950 4050 15050 4050
+Wire Wire Line
+	14050 4150 15050 4150
+Wire Wire Line
+	14150 4250 15050 4250
+Text GLabel 9750 6000 0    50   Input ~ 0
+DRDY_H_1
+Text GLabel 9750 5900 0    50   Input ~ 0
+ALERT_H_1
+Text GLabel 14900 4550 2    50   Input ~ 0
+FAULT_H_1
+Text GLabel 9750 6100 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 9750 6200 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 8700 10150 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 8700 10250 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	5000 4900 5100 4900
+$Comp
+L Device:C C?
+U 1 1 5E86854C
+P 5100 5050
+AR Path="/5E86854C" Ref="C?"  Part="1" 
+AR Path="/5E64352C/5E86854C" Ref="C?"  Part="1" 
+AR Path="/5E45D329/5E86854C" Ref="C3007"  Part="1" 
+F 0 "C3007" H 5215 5096 50  0000 L CNN
+F 1 "100nF_50V" H 5215 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5138 4900 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5100 5050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 5100 5050 50  0001 C CNN "DIGIKEY"
+	1    5100 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 4900
+Wire Wire Line
+	5100 4900 5600 4900
+$Comp
+L power:GND #PWR03012
+U 1 1 5E89EFDB
+P 11500 8750
+F 0 "#PWR03012" H 11500 8500 50  0001 C CNN
+F 1 "GND" H 11505 8577 50  0000 C CNN
+F 2 "" H 11500 8750 50  0001 C CNN
+F 3 "" H 11500 8750 50  0001 C CNN
+	1    11500 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3007
+U 1 1 5E89F671
+P 11500 8600
+F 0 "R3007" H 11570 8646 50  0000 L CNN
+F 1 "2k" H 11570 8555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11430 8600 50  0001 C CNN
+F 3 "~" H 11500 8600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072KL/311-2-00KCRCT-ND/730611" H 11500 8600 50  0001 C CNN "DIGIKEY"
+	1    11500 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3006
+U 1 1 5E89FF1A
+P 11500 8250
+F 0 "R3006" H 11570 8296 50  0000 L CNN
+F 1 "1k" H 11570 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11430 8250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 11500 8250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW06031K00FKEAHP/541-1-00KSCT-ND/2222766" H 11500 8250 50  0001 C CNN "DIGIKEY"
+	1    11500 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 8450 11500 8400
+Text GLabel 11500 7950 0    50   Input ~ 0
+Current_Sense_1
+Wire Wire Line
+	11500 8100 11500 7950
+Wire Wire Line
+	11500 8400 11350 8400
+Connection ~ 11500 8400
+Text GLabel 11350 8400 0    50   Input ~ 0
+2_ADC_1
+$Comp
+L power:GND #PWR03016
+U 1 1 5E90E227
+P 12850 8750
+F 0 "#PWR03016" H 12850 8500 50  0001 C CNN
+F 1 "GND" H 12855 8577 50  0000 C CNN
+F 2 "" H 12850 8750 50  0001 C CNN
+F 3 "" H 12850 8750 50  0001 C CNN
+	1    12850 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3009
+U 1 1 5E90E22D
+P 12850 8600
+F 0 "R3009" H 12920 8646 50  0000 L CNN
+F 1 "2k" H 12920 8555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12780 8600 50  0001 C CNN
+F 3 "~" H 12850 8600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072KL/311-2-00KCRCT-ND/730611" H 12850 8600 50  0001 C CNN "DIGIKEY"
+	1    12850 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3008
+U 1 1 5E90E233
+P 12850 8250
+F 0 "R3008" H 12920 8296 50  0000 L CNN
+F 1 "1k" H 12920 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12780 8250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 12850 8250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW06031K00FKEAHP/541-1-00KSCT-ND/2222766" H 12850 8250 50  0001 C CNN "DIGIKEY"
+	1    12850 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 8450 12850 8400
+Text GLabel 12850 7950 0    50   Input ~ 0
+Current_Sense_2
+Wire Wire Line
+	12850 8100 12850 7950
+Wire Wire Line
+	12850 8400 12700 8400
+Connection ~ 12850 8400
+Text GLabel 12700 8400 0    50   Input ~ 0
+2_ADC_2
+Text GLabel 15000 3550 2    50   Input ~ 0
+2_ADC_1
+Text GLabel 15000 3650 2    50   Input ~ 0
+2_ADC_2
+NoConn ~ 9750 4200
+NoConn ~ 9750 5100
+NoConn ~ 9750 5200
+NoConn ~ 9750 5700
+NoConn ~ 9750 5800
+NoConn ~ 15050 3850
+NoConn ~ 15050 3950
+NoConn ~ 15050 4050
+NoConn ~ 15050 4150
+NoConn ~ 15050 4250
+NoConn ~ 15050 4450
+Wire Wire Line
+	11950 4300 12150 4300
+NoConn ~ 2800 8200
+NoConn ~ 2800 8400
+Wire Notes Line
+	15750 700  15750 7050
+Wire Notes Line
+	15750 7050 8600 7050
+Wire Notes Line
+	8600 7050 8600 700 
+Wire Notes Line
+	8600 700  15750 700 
+Wire Notes Line
+	7350 950  7350 3100
+Wire Notes Line
+	7350 3100 4750 3100
+Wire Notes Line
+	4750 3100 4750 950 
+Wire Notes Line
+	4750 950  7350 950 
+Wire Notes Line
+	850  1550 4150 1550
+Wire Notes Line
+	4150 1550 4150 2750
+Wire Notes Line
+	4150 2750 850  2750
+Wire Notes Line
+	850  2750 850  1550
+Wire Notes Line
+	700  4300 3700 4300
+Wire Notes Line
+	3700 4300 3700 5700
+Wire Notes Line
+	3700 5700 700  5700
+Wire Notes Line
+	700  5700 700  4300
+Wire Notes Line
+	8200 4300 8200 5700
+Wire Notes Line
+	8200 5700 4600 5700
+Wire Notes Line
+	4600 5700 4600 4300
+Wire Notes Line
+	4600 4300 8200 4300
+Wire Notes Line
+	750  7500 3500 7500
+Wire Notes Line
+	3500 7500 3500 8900
+Wire Notes Line
+	3500 8900 750  8900
+Wire Notes Line
+	750  8900 750  7500
+Wire Notes Line
+	4150 9800 6250 9800
+Wire Notes Line
+	6250 9800 6250 10600
+Wire Notes Line
+	6250 10600 4150 10600
+Wire Notes Line
+	4150 10600 4150 9800
+Wire Notes Line
+	7750 9650 10200 9650
+Wire Notes Line
+	10200 9650 10200 10700
+Wire Notes Line
+	10200 10700 7750 10700
+Wire Notes Line
+	7750 10700 7750 9650
+Wire Notes Line
+	8750 7400 8750 9200
+Wire Notes Line
+	8750 9200 5100 9200
+Wire Notes Line
+	5100 9200 5100 7400
+Wire Notes Line
+	5100 7400 8750 7400
+Wire Notes Line
+	13750 7450 13750 9200
+Wire Notes Line
+	13750 9200 10550 9200
+Wire Notes Line
+	10550 9200 10550 7450
+Wire Notes Line
+	10550 7450 13750 7450
+Text Notes 13550 6950 0    50   ~ 0
+Microcontroller Connections and Decoupling Capacitors
+Text Notes 12250 9150 0    50   ~ 0
+Current Measurement Circuit for BMS
+Text Notes 9300 10650 0    50   ~ 0
+16x2 LCD Connection
+Text Notes 4700 10550 0    50   ~ 0
+Microcontroller Programmer Connection
+Text Notes 1900 8850 0    50   ~ 0
+Low Frequency Crystal Oscillator Circuit
+Text Notes 7650 9150 0    50   ~ 0
+Start up boot circuit of uC
+Text Notes 7650 5650 0    50   ~ 0
+3.3 V supply
+Text Notes 2050 5650 0    50   ~ 0
+High Frequency Crystal Oscillator Circuit
+Text Notes 3650 2700 0    50   ~ 0
+5 V supply
+Text Notes 6500 3050 0    50   ~ 0
+Reset Circuit for uC
+Text GLabel 15050 3750 2    50   Input ~ 0
+BATT_LOW_HIGH
+Text GLabel 1600 9600 0    50   Input ~ 0
+BATT_LOW_HIGH
+$Comp
+L Device:R R3001
+U 1 1 5EC3BCCF
+P 1900 10050
+F 0 "R3001" H 1970 10096 50  0000 L CNN
+F 1 "3.3k" H 1970 10005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 10050 50  0001 C CNN
+F 3 "~" H 1900 10050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB332V/P3-3KDACT-ND/1465959" H 1900 10050 50  0001 C CNN "DIGIKEY"
+	1    1900 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 9900 1900 9600
+Wire Wire Line
+	1600 9600 1900 9600
+$Comp
+L power:GND #PWR03004
+U 1 1 5EC5015C
+P 1900 10400
+F 0 "#PWR03004" H 1900 10150 50  0001 C CNN
+F 1 "GND" H 1905 10227 50  0000 C CNN
+F 2 "" H 1900 10400 50  0001 C CNN
+F 3 "" H 1900 10400 50  0001 C CNN
+	1    1900 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 10400 1900 10200
+Wire Notes Line
+	750  9400 3050 9400
+Wire Notes Line
+	3050 9400 3050 10850
+Wire Notes Line
+	3050 10850 750  10850
+Wire Notes Line
+	750  10850 750  9400
+Text Notes 1500 10800 0    50   ~ 0
+Battery Low High İndicator For Inverter
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E924854
+P 12800 6650
+AR Path="/5E57C7B9/5E924854" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5E924854" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 12800 6400 50  0001 C CNN
+F 1 "GNDD" H 12804 6495 50  0000 C CNN
+F 2 "" H 12800 6650 50  0001 C CNN
+F 3 "" H 12800 6650 50  0001 C CNN
+	1    12800 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E9390C8
+P 8400 10350
+AR Path="/5E57C7B9/5E9390C8" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5E9390C8" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 8400 10100 50  0001 C CNN
+F 1 "GNDD" H 8404 10195 50  0000 C CNN
+F 2 "" H 8400 10350 50  0001 C CNN
+F 3 "" H 8400 10350 50  0001 C CNN
+	1    8400 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E94D902
+P 11200 1850
+AR Path="/5E57C7B9/5E94D902" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5E94D902" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 11200 1600 50  0001 C CNN
+F 1 "GNDD" H 11204 1695 50  0000 C CNN
+F 2 "" H 11200 1850 50  0001 C CNN
+F 3 "" H 11200 1850 50  0001 C CNN
+	1    11200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E974B16
+P 12000 1750
+AR Path="/5E57C7B9/5E974B16" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5E974B16" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 12000 1500 50  0001 C CNN
+F 1 "GNDD" H 12004 1595 50  0000 C CNN
+F 2 "" H 12000 1750 50  0001 C CNN
+F 3 "" H 12000 1750 50  0001 C CNN
+	1    12000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E988276
+P 12800 1650
+AR Path="/5E57C7B9/5E988276" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5E988276" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 12800 1400 50  0001 C CNN
+F 1 "GNDD" H 12804 1495 50  0000 C CNN
+F 2 "" H 12800 1650 50  0001 C CNN
+F 3 "" H 12800 1650 50  0001 C CNN
+	1    12800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E99B8F2
+P 13650 1650
+AR Path="/5E57C7B9/5E99B8F2" Ref="#PWR?"  Part="1" 
+AR Path="/5E45D329/5E99B8F2" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 13650 1400 50  0001 C CNN
+F 1 "GNDD" H 13654 1495 50  0000 C CNN
+F 2 "" H 13650 1650 50  0001 C CNN
+F 3 "" H 13650 1650 50  0001 C CNN
+	1    13650 1650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

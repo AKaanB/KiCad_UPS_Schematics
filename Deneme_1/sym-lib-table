@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name Deneme_1-rescue)(type Legacy)(uri ${KIPRJMOD}/Deneme_1-rescue.lib)(options "")(descr ""))
+  (lib (name CRCW12182R20JNTK)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/CRCW12182R20JNTK/CRCW12182R20JNTK.lib")(options "")(descr ""))
+  (lib (name ECS-.327-12.5-17X-TR)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/ECS-.327-12.5-17X-TR (1)/ECS-.327-12.5-17X-TR.lib")(options "")(descr ""))
+  (lib (name BQ76PL536APAPT)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/BQ76PL536APAPT/BQ76PL536APAPT.lib")(options "")(descr ""))
+  (lib (name L7805CV)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/L7805CV/L7805CV.lib")(options "")(descr ""))
+  (lib (name R-78B12-2.0)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/R-78B12-2.0/R-78B12-2.0.lib")(options "")(descr ""))
+  (lib (name IR2125PBF)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/IR2125PBF/IR2125PBF.lib")(options "")(descr ""))
+  (lib (name 2020-03-12_18-02-38)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/ul_LTC7001EMSEPBF/KiCAD/2020-03-12_18-02-38/2020-03-12_18-02-38.lib")(options "")(descr ""))
+  (lib (name 2020-03-13_11-23-48)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/ul_AIRD03471K/KiCAD/2020-03-13_11-23-48/2020-03-13_11-23-48.lib")(options "")(descr ""))
+  (lib (name RMCF2512JT2R20)(type Legacy)(uri "C:/Users/Ahmet/Downloads/KiCad Library/RMCF2512JT2R20/RMCF2512JT2R20.lib")(options "")(descr ""))
+  (lib (name 2020-03-20_09-00-57)(type Legacy)(uri "C:/Users/Ahmet/Downloads/ul_AIRD03471K (1)/KiCAD/2020-03-20_09-00-57/2020-03-20_09-00-57.lib")(options "")(descr ""))
+)
