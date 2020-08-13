@@ -1,5 +1,5 @@
 # KiCad_UPS_Schematics
- Open Source Schematics of a Li-ion battery based 1.1 KW uninterruptible power supply.
+ Open Source Schematics of a Li-ion battery based 1.1 KW uninterruptible power supply. Design consists of CC/CV Charger and passive battery balancing and a full bridge inverter.
 You can just take a look at the PDF if you only want to see the schematics.
 
 All parts have footprints except the transformers. 
