@@ -1,5 +1,5 @@
 # KiCad_UPS_Schematics
- Open Source Schematics of a Li-ion battery based uninterruptible power supply.
+ Open Source Schematics of a Li-ion battery based uninterruptible power supply. This design is NOT tested. I will update it if I can finish it.
 
 You can just take a look at the PDF if you only want to see the schematics.
 
